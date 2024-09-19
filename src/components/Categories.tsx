@@ -31,6 +31,7 @@ const Categories = ({
       </button>
       {categories.map((cat) => (
         <button
+          key={cat.id}
           onClick={() => setSelectedCategoryId(cat.id)}
           className={`${
             selectedCategoryId == cat.id && "bg-purple-500"

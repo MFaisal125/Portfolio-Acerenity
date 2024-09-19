@@ -20,7 +20,7 @@ const Contact = () => {
       <TitleText title="Contact Us" />
       <div className="grid grid-cols-1 md:grid-cols-2">
         <motion.div
-          variants={staggerContainer}
+          variants={staggerContainer()}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
@@ -31,30 +31,25 @@ const Contact = () => {
             className="max-w-2xl w-full rounded-2xl m-5 p-4 md:p-8 bg-purple-800/5 border-[1px] border-purple-800 hover:shadow-md hover:shadow-purple-500"
           >
             <h2 className="font-bold text-3xl lg:text-5xl text-purple-500">
-              Welcome to Code Scrapper
+              Welcome to Professional Era
             </h2>
             <p className="text-neutral-300 text-sm max-w-sm mt-2">
-              Login to aceternity if you can because we don&apos;t have a login
-              flow yet
+              Login to if you can because we don&apos;t have a login flow yet.
             </p>
             <form className="my-8">
               <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
                 <LabelInputContainer>
                   <Label htmlFor="firstname">First name</Label>
-                  <Input id="firstname" placeholder="Tyler" type="text" />
+                  <Input id="firstname" placeholder="First name" type="text" />
                 </LabelInputContainer>
                 <LabelInputContainer>
                   <Label htmlFor="lastname">Last name</Label>
-                  <Input id="lastname" placeholder="Durden" type="text" />
+                  <Input id="lastname" placeholder="Last name" type="text" />
                 </LabelInputContainer>
               </div>
               <LabelInputContainer className="mb-4">
                 <Label htmlFor="email">Email Address</Label>
-                <Input
-                  id="email"
-                  placeholder="projectmayhem@fc.com"
-                  type="email"
-                />
+                <Input id="email" placeholder="abc123@gmail.com" type="email" />
               </LabelInputContainer>
               <LabelInputContainer className="mb-4">
                 <Label htmlFor="password">Password</Label>
@@ -134,7 +129,7 @@ const Contact = () => {
               />
               <div className="flex flex-col gap-2">
                 <label className="text-md">Phone</label>
-                <label className="text-xl lg:text-2xl">+01 2345 564 4534</label>
+                <label className="text-xl lg:text-2xl">+92 300 111 44443</label>
               </div>
             </ButtonsCard>
 
@@ -146,9 +141,7 @@ const Contact = () => {
               />
               <div className="flex flex-col gap-2">
                 <label className="text-md">Email</label>
-                <label className="text-xl lg:text-2xl">
-                  codescrapper1@gmail.com
-                </label>
+                <label className="text-xl lg:text-2xl">abc123@gmail.com</label>
               </div>
             </ButtonsCard>
             <ButtonsCard>

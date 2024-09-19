@@ -20,14 +20,10 @@ const Footer = () => {
           </Link>
         </nav>
         <div className="text-gray-100 md:mr-4 lg:mr-8">
-          Code Scrapper @ 2024. All rights reserved
+          2024. All rights reserved
         </div>
-        <div className="text-gray-100 md:mr-4 lg:mr-8">
-          225 Polk St, San Francisco, CA, 94102
-        </div>
-        <div className="text-gray-100 md:mr-4 lg:mr-8">
-          codescrappeer1@gmail.com
-        </div>
+        <div className="text-gray-100 md:mr-4 lg:mr-8">Pakistan</div>
+        <div className="text-gray-100 md:mr-4 lg:mr-8">abc12345@gmail.com</div>
       </div>
     </footer>
   );
