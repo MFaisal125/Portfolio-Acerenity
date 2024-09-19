@@ -20,7 +20,7 @@ const Contact = () => {
       <TitleText title="Contact Us" />
       <div className="grid grid-cols-1 md:grid-cols-2">
         <motion.div
-          variants={staggerContainer()}
+          variants={staggerContainer}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
